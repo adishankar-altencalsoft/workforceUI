@@ -1,0 +1,1056 @@
+ * {
+            margin: 0;
+            padding: 0
+        }
+
+        header .mainItems {
+            background: #3fafd7;
+            text-align: center;
+            width: 100%;
+        }
+
+        ul.subMenu {
+            background: #389bbf;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            display: block;
+        }
+
+        .subMenu li.selected {
+            background: #333;
+        }
+
+        header li {
+            display: inline-block;
+            font-size: 18px;
+            color: #fff;
+            margin: 0px -2px;
+        }
+        
+        .loader{
+      	  display:none;
+      	  width:69px;
+      	  height:100px;
+      	  position:absolute;
+      	  top:30%;
+      	  left:45%;
+      	  padding:2px;
+        }
+        
+        .loader img {
+       		 width : 150px;
+        }
+
+        .rosterLi {
+            background: #389bbf;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            color: #fff;
+            text-decoration: none;
+            padding: 20px;
+            display: inline-block;
+        }
+
+        .aside {
+            width: 20%;
+            float: left;
+            background: #f7f8fa;
+            border-right: 5px solid #cad2de;
+        }
+
+        .aside h3 {
+            background: #e6eaee;
+            padding: 10px 20px;
+            margin: 10px 0;
+        }
+
+        #avail .aside h3 {
+            margin: 30px 0 20px;
+        }
+
+        .rosterContent h5 {
+            display: inline-block;
+            margin: 20px;
+            font-size: 14px;
+        }
+
+        .monthsBar {
+            padding: 0 10px;
+        }
+
+        .monthsBar a {
+            text-decoration: none;
+            color: #a6b0bc;
+            font-size: 14px;
+            margin: 20px 3px 0;
+            DISPLAY: inline-block;
+        }
+
+        .mainContContr {
+            background: #f2f3f6;
+            overflow: hidden;
+            min-height: 100%;
+        }
+
+        .locContent h3 {
+            margin: 0 !important;
+            border-bottom: 1px solid #cad2de;
+        }
+
+        .locContent {
+            border: 1px solid #cad2de;
+            margin: 30px 20px;
+        }
+
+        .devBox,
+        .manBox,
+        .qaBox1 {
+            margin: 10px;
+        }
+
+        .shiftTime li {
+            margin: 8px 10px 0;
+            list-style: none;
+            font-size: 14px;
+            line-height: 1;
+            display: inline-flex;
+        }
+
+        .mainContent {
+            float: left;
+        }
+
+        .mainContent h3 {
+            margin: 20px 20px;
+        }
+
+        .mainContent {
+            float: left;
+            /* display: inline-block; */
+            width: 78%;
+            overflow-x: auto;
+        }
+
+        .dateDayContr span {
+			font-size: 12px;
+			width: 63px !important;
+			display: inline-block;
+			text-align: center;
+			margin: 0 5px;
+			font-weight: normal;
+			line-height: 1;
+		}
+
+        .dateDayContr {
+            width: 250%;
+            margin-left: 10vw;
+        }
+
+        .dayCotnr span {
+			font-size: 14px;
+			width: 63px !important;
+			text-align: center;
+			display: inline-block;
+			font-weight: bold;
+			margin: 0 5px;
+		}
+
+        .develop,
+        .manage,
+        .qaD {
+            font-size: 16px;
+            margin: 10px 0px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .develop::before,
+        .manage::before,
+        .qaD::before {
+            content: " ";
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            background: #8c3df8;
+            margin: -5px 10px;
+            border-radius: 4px;
+        }
+
+        .manage::before {
+            background: #3fafd7;
+        }
+
+        .qaD::before {
+            background: #45d2a8
+        }
+
+        h4.empName {
+            /* display: inline-block; */
+            width: 120px;
+            position: -webkit-sticky;
+            position: sticky;
+            left: 0px;
+            padding: 0;
+            color: #000;
+            text-align: center;
+            float: left;
+            height: 40px;
+            border-radius: 4px;
+            background: rgba(.3, .3, .3, .5);
+            color: #fff;
+            line-height: 2.5;
+            margin-top: 4px;
+            margin-left: 4px;
+        }
+
+        .empRosDet span {
+            background: #dbdee1;
+            height: 40px;
+            width: 65px;
+            float: left;
+            border-radius: 4px;
+            margin: 4px 4px -1px;
+            text-align: center;
+            line-height: 2.2;
+        }
+
+
+        .empRosDet {
+            display: inline-block;
+        }
+
+        .mainRoster {
+            width: 250%;
+        }
+        .developerRow {
+    overflow: hidden;
+}
+        .devlopBox,
+        .manageBox,
+        .qaBox {
+            margin: 10px;
+            display: inline-block;
+        }
+
+        a.midMon {
+            background: #dae0e8;
+            padding: 10px 14px;
+            border-radius: 90px;
+            color: #465467;
+        }
+
+        li.a0 {
+            color: #fbb700;
+        }
+
+        li.a1 {
+            color: black;
+        }
+
+        li.a2 {
+            color: #203863;
+        }
+
+        li.gn {
+            color: #007c23;
+        }
+
+        li.wo {
+            display: flex;
+            margin-top: 8px;
+        }
+
+        li.l {
+            color: #3c3c3c;
+        }
+
+        .dev::before,
+        .man::before,
+        .qa::before {
+            content: " ";
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            background: #8c3df8;
+            margin: -1px 5px -1px 0px;
+            border-radius: 4px;
+        }
+
+        .man::before {
+            background: #3fafd7;
+        }
+
+        .qa::before {
+            background: #45d2a8;
+        }
+
+        dl,
+        ol,
+        ul {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+
+        h4 {
+            font-size: 14px;
+
+        }
+
+        .fromDate,
+        .toDate {
+            display: inline-block;
+        }
+
+        .rosterContent {
+            margin: 5px 10px 10px 5px;
+        }
+
+        .rosterContent input {
+            width: 45%;
+            margin: 0 0 0 10px;
+            padding: 5px 8px;
+            font-size: 12px;
+            border-radius: 4px;
+            box-shadow: none;
+            border: none;
+            border: 1px solid #888;
+        }
+
+        button.btn.btn-info {
+            margin-left: 20px;
+        }
+
+        button.btn {
+            margin-top: 15px;
+        }
+
+        span.a0Icon {
+            width: 31px;
+            height: 31px;
+            background-image: url("./icons/icon_ora.png");
+            display: inline-block;
+            background-size: cover;
+        }
+
+        span.a1Icon {
+            width: 31px;
+            height: 31px;
+            background-image: url("./icons/icon_red.png");
+            display: inline-block;
+            background-size: cover;
+        }
+
+        span.a2Icon {
+            width: 31px;
+            height: 31px;
+            background-image: url("./icons/icon_blue.png");
+            display: inline-block;
+            background-size: cover;
+        }
+
+        span.gnIcon {
+            width: 31px;
+            height: 31px;
+            background-image: url("./icons/icon_green.png");
+            display: inline-block;
+            background-size: cover;
+        }
+
+        span.woIcon {
+            width: 31px;
+            height: 31px;
+            background-image: url("./icons/icon_grey.png");
+            display: inline-block;
+            background-size: cover;
+        }
+
+        span.lIcon {
+            width: 31px;
+            height: 31px;
+            background-image: url("./icons/icon_black.png");
+            display: inline-block;
+            background-size: cover;
+        }
+
+        li span {
+            position: relative;
+            top: -8px;
+            left: -5px;
+        }
+
+        .rosterViews button {
+            padding: 5px 12px;
+            margin: 5px 2px 0;
+            width: 100px;
+            font-size: 16px;
+        }
+
+        .rosterViews button.btn.btn-start {
+            margin-left: 32px !important;
+        }
+
+        span.stIcon {
+            background-image: url("./icons/clock.png");
+            background-size: cover;
+            width: 31px;
+            height: 30px;
+            display: inline-block;
+            float: left;
+            position: relative;
+            top: -6px;
+            left: -5px;
+            margin-right: 14px;
+        }
+
+        span.starIcon {
+            background-image: url("./icons/star.png");
+            background-size: cover;
+            width: 25px;
+            height: 25px;
+            float: left !important;
+            top: 0px;
+            left: 0;
+            margin-right: 20px !important;
+            margin-top: -4px;
+        }
+
+        span.roIcon {
+            width: 35px;
+            background-image: url("./icons/show.png");
+            background-size: cover;
+            height: 32px;
+            /* display: inline-block; */
+            float: left;
+            position: relative;
+            top: -7px;
+            left: -6px;
+            margin-right: 10px;
+        }
+
+        .dateText {
+            margin-left: 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .developerRow:nth-child(odd) {
+            background: rgba(.3, .3, .3, .2);
+            border-radius: 4px;
+        }
+
+        span.loading {
+            padding: 30px;
+            position: fixed;
+            top: 45%;
+            left: 45%;
+            background: darkturquoise;
+            border-radius: 4px;
+            font-size: 30px;
+            color: #fff;
+            font-weight: 600;
+            opacity: .7;
+            display: none;
+        }
+
+        .btn-success.disabled,
+        .btn-success:disabled,
+        .btn-danger.disabled,
+        .btn-danger:disabled {
+            background: #ccc;
+            color: #000;
+        }
+
+        .score h3 {
+            margin: 10px 0 10px 0;
+        }
+
+        .score li {
+            margin: 5px 20px;
+            list-style: none;
+        }
+
+        .score span {
+            position: static !important;
+            float: right;
+        }
+
+        .score ul li span {
+            width: 50px;
+        }
+
+        /* .type,.shiftId {
+    display: block;
+    width: 500%;
+}
+.type span,.shiftId span {
+    float: left;
+} */
+        .shiftResults {
+            display: block;
+            width: 500%;
+        }
+
+        .mainShift .shiftId {
+            float: left;
+        }
+
+        .shiftResults div {
+            display: inline-block;
+        }
+
+        span.shiftsBg.holidayCls {
+            width: 42px;
+            display: flex;
+        }
+
+        .shiftsBg {
+            height: 30px;
+            width: auto;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .shiftACls {
+            background: orange !important;
+            color: #fff;
+        }
+
+        .shiftBCls {
+            background: red !important;
+            color: #fff;
+        }
+
+        .shiftCCls {
+            background: blue !important;
+            color: #fff;
+        }
+
+        .holidayCls {
+            background: #333 !important;
+            color: #fff;
+        }
+
+        .currentUser {
+            float: right;
+            margin-right: 40px;
+        }
+
+        .leaveCls {
+            background: #000 !important;
+            color: #fff;
+        }
+
+        li.wo {
+            display: flex;
+            margin-top: 8px;
+        }
+
+        .currentUser,
+        .mainItems {
+            display: inline-block;
+        }
+
+        select#rosterSettings {
+            width: 90%;
+            display: block;
+            margin: 10px auto;
+            background: #ddd;
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+
+        .nav-link {
+            padding: 20px;
+            border-radius: 0 !important;
+        }
+
+        .usrBtn {
+            margin-right: -4px;
+        }
+
+        .active.nav-link {
+            background: #333 !important;
+            color: #fff !important
+        }
+
+        .fade:not(.show) {
+            opacity: 0;
+            display: none;
+        }
+
+        ul.availContentMenu {
+            text-align: left;
+            margin: 0 0 0px 58px;
+            display: inline-block;
+        }
+
+        .leaveBtnCont {
+            display: inline-block;
+            text-align: right;
+            width: 300px;
+            margin-bottom: 20px;
+            margin-top: 25px;
+        }
+
+        .leaveBtnCont .btn {
+            margin-top: 0;
+        }
+
+        .availContentMenu li {
+            display: inline-block;
+        }
+
+        body {
+            background: #f7f8fa;
+        }
+
+        .table-info1 th {
+            vertical-align: inherit;
+        }
+
+        .table-info1 td.leaveSpan {
+            border: 2px solid #f00;
+            cursor: pointer;
+        }
+
+        .availContentMenu a {
+            display: inline-block;
+            margin: 0 0px 0 4px;
+            background: transparent;
+            padding: 5px 30px;
+            text-align: center;
+            min-width: 80px;
+            color: #000;
+            border-radius: 30px;
+            border: 1px solid #ccc;
+        }
+
+
+        .availContent thead tr {
+            background: #eaeef2;
+            color: #333;
+        }
+
+        .availContent,
+        .leaveBtnContr {
+            margin: auto;
+            width: 90%;
+            display: block;
+        }
+
+
+        .availContent td span,
+        .colorIndex span {
+            height: 40px;
+            display: inline-block;
+            color: #fff;
+            line-height: 2.5;
+            border-radius: 4px;
+            font-weight: 600;
+            text-shadow: 0 1px 2px #333;
+            cursor: pointer;
+        }
+
+        .availContent td span.teamSpan,
+        .colorIndex .teamSpan {
+            background: tomato;
+        }
+
+        .availContent td span.prefSpan,
+        .colorIndex .prefSpan {
+            background: peru;
+        }
+
+        .availContent td span.availSpan,
+        .colorIndex .availSpan {
+            background: forestgreen;
+        }
+
+        .availContent td span.leaveSpan,
+        .colorIndex .leaveSpan {
+            border: 1px solid #f00;
+        }
+
+        .availContent td span {
+            min-width: 40px;
+            padding: 0 10px;
+        }
+
+        .table-info1 td,
+        .table-info1 th {
+            text-align: center;
+            min-width: 161px;
+        }
+
+        .availContentMenu .active {
+            background: #333;
+            color: #fff;
+        }
+
+        .dateRange {
+            margin-top: 30px;
+        }
+
+        #avail .mainavailContent {
+            width: 80%;
+            display: inline-block;
+            margin-top: 30px;
+        }
+
+        .colorIndex span {
+            position: relative;
+            top: 10px;
+            margin-right: 10px;
+            height: 30px;
+            width: 30px;
+        }
+
+
+        input.datePicker {
+            margin: 10px;
+            width: 70%;
+        }
+
+        .dateRange button.btn {
+            margin-top: -6px;
+        }
+
+        #avail .aside {
+            width: 20%;
+            float: left;
+            border-right: 5px solid #cad2de;
+            height: 100%;
+        }
+
+        .colorIndex ul {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 0 0 10px 20px;
+        }
+
+        .colorIndex ul li {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .shiftsAside ul {
+            display: block;
+            margin: 0 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .shiftsAside li {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .emplList {
+            display: inline-block;
+            width: 16%;
+            float: left;
+            margin: 0 20px 0 0;
+            background: rgba(.3, .3, .3, .8);
+            text-align: center;
+            display: none;
+        }
+
+        .emplList a {
+            color: #000;
+        }
+
+        .emplList h3 {
+            padding: 16px 20px;
+            margin: 0;
+            background: #888;
+            color: #fff;
+        }
+
+        .emplList li {
+            display: block;
+            padding: 16px 20px;
+            background: #f3f3f3;
+            margin: 7px 6px;
+        }
+
+        input.datePicker {
+            margin: 10px;
+            width: 70%;
+            padding: 2px 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: navajowhite;
+            border: 1px solid #ccc;
+        }
+
+        .availableRosters li {
+            text-align: left;
+            display: block;
+            margin: 5px 40px;
+            width: 50%;
+        }
+
+        .mainavailContent .table {
+            width: 100%;
+            margin-bottom: 1rem;
+            color: #212529;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .table.shiftOrderTable thead th {
+            padding: 20px;
+            width: 50%;
+        }
+
+        .shiftOrder .table {
+            width: 100%;
+            color: #212529;
+            display: inline-block;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .shiftOrder thead {
+            margin: auto;
+            width: 100%;
+            display: inline-table;
+        }
+
+        .table.shiftOrderTable thead th {
+            padding: 20px;
+            width: 50%;
+            border: 1px solid #ccc;
+        }
+
+        .table.shiftOrderTable tbody {
+            width: 100%;
+            display: inline-table;
+        }
+
+        .table-bordered td {
+            border: none;
+            border-top: 1px solid #dee2e6
+        }
+
+        .availContent td span.leaveSpan {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .table-info1 td {
+            padding-top: 15px;
+        }
+
+        .table td,
+        .table th {
+            border: 0px solid #dee2e6;
+        }
+
+        .leaveBtnContr {
+            text-align: right;
+            margin: 30px 20px 25px;
+        }
+
+        .table thead th {
+            padding: 20px 0;
+        }
+
+        .table tr {
+            border-top: 1px solid #ddd;
+        }
+
+        .leaveBtnCont {
+            display: inline-block;
+            text-align: right;
+            width: 91%;
+        }
+
+        .holidaySpan {
+            background: #ccc;
+        }
+
+        textarea {
+            overflow: auto;
+            resize: none;
+            margin: auto;
+            display: inline-block;
+            width: 100%;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .inputDate {
+            margin: 5px 0 20px 0;
+            font-size: 12px;
+        }
+
+        .leaveDatePicker h4 {
+            margin-bottom: 0;
+        }
+
+        .leaveReason,
+        .availReason {
+            text-align: right;
+        }
+
+        .leaveReason h4 {
+            text-align: left;
+            margin-bottom: 5px;
+        }
+
+        .availReason button.btn.btn-primary {
+            margin-right: 10px;
+        }
+
+        .availReason button.btn.btn-primary,
+        .leaveReason button.btn.btn-primary {
+            width: 140px;
+        }
+
+        .shiftBlock {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .shiftBlock #dropdownMenuButton {
+            margin-top: 0;
+        }
+
+        .shiftBlock .dropdown {
+            display: inline-block;
+        }
+
+        .shiftBlock button.btn.btn-danger {
+            float: right;
+            margin: 0 20px;
+            width: 100px;
+        }
+
+        .shiftBlock .table td {
+            width: 50%;
+        }
+
+        .shiftRow {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px 0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .shiftRow label {
+            margin: 10px 20px;
+        }
+
+        .shiftRow select {
+            border-radius: 4px;
+            width: 45px;
+            padding: 0 5px;
+        }
+
+        .AddShiftBtn {
+            padding: 0px 30px 0px 0;
+            text-align: right;
+        }
+
+        .AddShiftBtn button.btn.btn-info {
+            width: 100px;
+            margin: 0;
+        }
+
+        .shiftPref {
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        input.shiftPrefInp {
+            width: 80px;
+            text-align: center;
+        }
+
+        .shiftRow button.btn.btn-danger {
+            margin: 3px 20px;
+        }
+
+        .shiftPrefSave {
+            text-align: right;
+        }
+
+        .shiftPrefSave button.btn.btn-primary {
+            margin-right: 20px;
+            margin-top: 0;
+            width: 120px;
+        }
+
+        .fromDate,
+        .toDate {
+            display: inline-block;
+            width: 210px;
+            font-size: 12px;
+        }
+
+        .fromDate {
+            width: 230px;
+            margin-right: 5px;
+            margin-top: 5px;
+        }
+
+        .toDate {
+            margin-right: 0;
+            width: 225px;
+        }
+
+        #avail .aside .fromDate,
+        #avail .aside .toDate {
+            width: 35%;
+        }
+
+        #avail .aside .fromDate {
+            margin-left: 10px;
+        }
+
+        button.btn.btn-outline-secondary.border-left-0 {
+            display: none;
+        }
+
+        .gj-unselectable.input-group {
+            display: inline-block;
+            width: 33%;
+            margin: 0 10px 0 18px;
+        }
+
+        .rosterViews .fromDate.form-control,
+        .rosterViews .toDate.form-control {
+            display: inline-block;
+            width: 115px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        input#manPrefEndDate,
+        input#manPrefStartDate {
+            width: 220px;
+            border-radius: 5px;
+            margin-right: 20px;
+            display: inline-block;
+        }
+
+        #manPrefModal .gj-datepicker.gj-datepicker-bootstrap.gj-unselectable.input-group {
+            display: inline-block;
+            width: 44%;
+            margin-left: 10px !important;
+        }
